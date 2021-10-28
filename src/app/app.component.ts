@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'brewery';
+  message_bar="Tec_Web";
+  title = 'Brewery';
+  message = 'Hello, World!';
+  year = new Date().getFullYear();
+
 }

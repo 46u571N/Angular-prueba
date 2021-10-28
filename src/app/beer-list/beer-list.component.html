@@ -1,0 +1,35 @@
+<table class="table table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Imagen</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Stock</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img [src]="beer.image" [alt]="beer.name"></td>
+        <td>{{beer.name}}</td>
+        <td>{{beer.style}}</td>
+        <td>{{beer.price}}</td>
+        <td>{{beer.stock}}</td>
+      </tr>
+      <tr>
+        <td >No image</td>
+        <td >Rubia</td>
+        <td >Golden</td>
+        <td>$180</td>
+        <td>50</td>
+        
+      </tr>
+      <tr>
+        <td>No image</td> 
+        <td>Red</td>       
+        <td >Barlywine</td>
+        <td >$250</td>
+        <td>30</td>
+      </tr>
+    </tbody>
+  </table>
